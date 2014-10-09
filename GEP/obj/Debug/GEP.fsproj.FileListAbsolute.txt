@@ -1,0 +1,50 @@
+c:\users\richard\documents\visual studio 14\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+c:\users\richard\documents\visual studio 14\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.XML
+c:\users\richard\documents\visual studio 14\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+c:\users\richard\documents\visual studio 14\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+c:\users\richard\documents\visual studio 14\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\FSharp.Core.dll
+c:\users\richard\documents\visual studio 14\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\FSharp.Core.xml
+c:\users\richard\documents\visual studio 14\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+c:\users\richard\documents\visual studio 14\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Richard\Documents\Visual Studio 14\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\FSharp.Quotations.Evaluator.dll
+C:\Users\Richard\Documents\Visual Studio 14\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\FSharp.Quotations.Evaluator.pdb
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\bin\Debug\ConsoleApplication1.XML
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\obj\Debug\ConsoleApplication1.exe
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\obj\Debug\ConsoleApplication1.pdb
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\bin\Debug\ConsoleApplication1.exe.config
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\bin\Debug\ConsoleApplication1.exe
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\bin\Debug\ConsoleApplication1.pdb
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\bin\Debug\FSharp.Core.dll
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\bin\Debug\FSharp.Quotations.Evaluator.dll
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\bin\Debug\FSharp.Quotations.Evaluator.pdb
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\bin\Debug\FSharp.Core.xml
+E:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\bin\Debug\ConsoleApplication1.exe.config
+E:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\bin\Debug\ConsoleApplication1.XML
+E:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\bin\Debug\ConsoleApplication1.exe
+E:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\bin\Debug\ConsoleApplication1.pdb
+E:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\bin\Debug\FSharp.Core.dll
+E:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\bin\Debug\FSharp.Quotations.Evaluator.dll
+E:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\bin\Debug\FSharp.Quotations.Evaluator.pdb
+E:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\bin\Debug\FSharp.Core.xml
+E:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\obj\Debug\ConsoleApplication1.exe
+E:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\obj\Debug\ConsoleApplication1.pdb
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\GEP\bin\Debug\ConsoleApplication1.exe.config
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\GEP\bin\Debug\ConsoleApplication1.XML
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\GEP\bin\Debug\ConsoleApplication1.exe
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\GEP\bin\Debug\ConsoleApplication1.pdb
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\GEP\bin\Debug\FSharp.Core.dll
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\GEP\bin\Debug\FSharp.Quotations.Evaluator.dll
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\GEP\bin\Debug\FSharp.Quotations.Evaluator.pdb
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\GEP\bin\Debug\FSharp.Core.xml
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\GEP\obj\Debug\ConsoleApplication1.exe
+C:\Dropbox\Demo Projects For Jobs\Gene Expression Programming\GEP\obj\Debug\ConsoleApplication1.pdb
+C:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\ConsoleApplication1.exe.config
+C:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\ConsoleApplication1.XML
+C:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\ConsoleApplication1.exe
+C:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\ConsoleApplication1.pdb
+C:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\FSharp.Core.dll
+C:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\FSharp.Quotations.Evaluator.dll
+C:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\FSharp.Quotations.Evaluator.pdb
+C:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\FSharp.Core.xml
+C:\Dropbox\Demo Projects For Jobs\GEP\GEP\obj\Debug\ConsoleApplication1.exe
+C:\Dropbox\Demo Projects For Jobs\GEP\GEP\obj\Debug\ConsoleApplication1.pdb
