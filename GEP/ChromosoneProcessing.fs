@@ -46,34 +46,35 @@ let StringToChromosone (chromosone: string) length =
 
 
 let chrFromSymbol sym = sym |> List.map( fun x -> x.letter) 
-let rec processGene (gene:Symbol list)  =
-                            
-//                            match gene with
-//                            |head::tail ->
-//                            
-//                            let g = gene |> Seq.take (gene |> List.head).arity
-//                            printfn "%A" g
+//"/*a+b-*Q*ababb"
 
+let testList = [['/'];
+                ['*';'a'];
+                ['+';'b';'-'];
+                ['*';'Q';'*';'a'];
+                ['a';'b';'a';'b';'b']]
+
+let processGene (gene: Symbol list) =
+    let rec processGene1 (gene:Symbol list) (remainder: Symbol list)  =
+                            
+// Here I suspect I'll need to produce a list of lists, like the testList above! But I also think the correct solution for the translation engine involves trees.
                                 let s = gene.Head
                                 match gene.Length - 1 > s.arity with
                                                | true ->let g = if gene.Head.arity > 0 then
-                                                                       processGene (gene |> Seq.skip (gene.Head).arity  |> Seq.toList) 
-                                                                       gene |> Seq.take ((gene.Head).arity )
+                                                                       processGene1 (gene |> Seq.skip (gene.Head).arity  |> Seq.toList) gene.Tail
+                                                                       remainder |> Seq.take ((gene.Head).arity )
                                                                     else
-                                                                        processGene (gene.Tail )
-                                                                        gene |> Seq.take 1
+                                                                        processGene1 (gene.Tail ) gene.Tail
+                                                                        remainder |> Seq.take 1
                                                         printfn " " 
-                                                        for symbol in g do
+                                                        for symbol in g  do
                                                             printf "%A" symbol.letter
-                                                     
-//                                                        match s.arity with 
-//                                                        | 0 -> processGene (gene.Tail )
-//                                                        | _ -> processGene (gene |> Seq.skip s.arity |> Seq.toList )
+
                                                | false -> printfn "" 
                                                
 //                            |[] -> printfn "Done"  
 //                                   []                
 
+    processGene1 gene gene
 
-let strings = [ "one"; "two"; "three" ]
-let r = strings |> List.fold (fun r s -> r + s + "\n") ""                                             
+                                         
