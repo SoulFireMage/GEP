@@ -48,3 +48,15 @@ C:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\FSharp.Quotations.Evaluator.
 C:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\FSharp.Core.xml
 C:\Dropbox\Demo Projects For Jobs\GEP\GEP\obj\Debug\ConsoleApplication1.exe
 C:\Dropbox\Demo Projects For Jobs\GEP\GEP\obj\Debug\ConsoleApplication1.pdb
+E:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\ConsoleApplication1.exe.config
+E:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\ConsoleApplication1.XML
+E:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\ConsoleApplication1.exe
+E:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\ConsoleApplication1.pdb
+E:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\FSharp.Core.dll
+E:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\FSharp.Quotations.Evaluator.dll
+E:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\FSharp.Quotations.Evaluator.pdb
+E:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\FSharp.Core.xml
+E:\Dropbox\Demo Projects For Jobs\GEP\GEP\obj\Debug\ConsoleApplication1.exe
+E:\Dropbox\Demo Projects For Jobs\GEP\GEP\obj\Debug\ConsoleApplication1.pdb
+E:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\nunit.framework.dll
+E:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\nunit.framework.xml

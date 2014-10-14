@@ -1,6 +1,8 @@
 ﻿module ChromosoneProcessing
 
-open  Structures
+open Structures
+open NUnit.Framework
+
 
 let (|Operation|Operand|) str =
           match str with
@@ -42,27 +44,34 @@ let StringToChromosone (chromosone: string) length =
                                                chunk [] 0 chr |> List.rev 
                                               else 
                                                chunk [] 0 ("Error".ToCharArray()) 
-                                           |> geneList |> List.mapi(fun i g-> dict[(i, g)])
+                                           |> geneList |> List.mapi(fun i g-> dict[(i, g)]) 
+
 
 
 let chrFromSymbol sym = sym |> List.map( fun x -> x.letter) 
 //"/*a+b-*Q*ababb"
 
-let testList = [['/'];
-                ['*';'a'];
-                ['+';'b';'-'];
-                ['*';'Q';'*';'a'];
-                ['a';'b';'a';'b';'b']]
+ 
+
+
+    
+
+ 
 
 let processGene (gene: Symbol list) =
     let rec processGene1 (gene:Symbol list) (remainder: Symbol list)  =
                             
 // Here I suspect I'll need to produce a list of lists, like the testList above! But I also think the correct solution for the translation engine involves trees.
-                                let s = gene.Head
-                                match gene.Length - 1 > s.arity with
+                                let s = if gene.Head.index = 0 then 
+                                             gene.Head.arity
+                                            else
+                                             gene |> List.sumBy(fun x -> x.arity)
+
+                                match gene.Length - 1 > s with
                                                | true ->let g = if gene.Head.arity > 0 then
-                                                                       processGene1 (gene |> Seq.skip (gene.Head).arity  |> Seq.toList) gene.Tail
-                                                                       remainder |> Seq.take ((gene.Head).arity )
+                                                                       
+                                                                       processGene1 (gene |> Seq.skip s  |> Seq.toList) (remainder |>Seq.take s  |> Seq.toList)
+                                                                       remainder |> Seq.take s
                                                                     else
                                                                         processGene1 (gene.Tail ) gene.Tail
                                                                         remainder |> Seq.take 1
@@ -76,5 +85,16 @@ let processGene (gene: Symbol list) =
 //                                   []                
 
     processGene1 gene gene
-
-                                         
+//
+//
+//[<TestFixture>]
+//type Test() = 
+//    let test2 = "/*a+b-*Q*ababb"
+//    let testList = [['/'];
+//                ['*';'a'];
+//                ['+';'b'];
+//                ['-';'*'];
+//                ['Q';'*';'a';'b'];
+//                ['a';'b';'b']]
+//    Assert.AreEqual testList (processGene test2 test2)
+//                                         

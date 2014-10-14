@@ -25,7 +25,7 @@ open ChromosoneProcessing
 
 //testing
 let testseq = "123/+INQ-a/*b*aabOU/+I789ABCDNQ-a/*b*aabO789ABCDU/+INQ-a/*b*aa"
-let test2 = "/*a+b-*Q*ababb"
+let test2 = "/*a+b-*Q*/+a-bIaQ/+AS+*abbbab/ababba"
 //must pick up escape chars
 let printGene sequence length = printfn "\n Chromosone: %A \n Gene Head Length (h): %A \n" sequence length
                                 for genes in (StringToChromosone sequence length) do
@@ -34,7 +34,7 @@ let printGene sequence length = printfn "\n Chromosone: %A \n Gene Head Length (
                               
                                
                                          
-let tests = printGene test2 12
+let tests = printGene test2 32
 
 Console.ReadLine()
 Application.Run()
