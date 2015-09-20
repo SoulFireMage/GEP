@@ -60,3 +60,7 @@ E:\Dropbox\Demo Projects For Jobs\GEP\GEP\obj\Debug\ConsoleApplication1.exe
 E:\Dropbox\Demo Projects For Jobs\GEP\GEP\obj\Debug\ConsoleApplication1.pdb
 E:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\nunit.framework.dll
 E:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\nunit.framework.xml
+C:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\nunit.framework.dll
+C:\Dropbox\Demo Projects For Jobs\GEP\GEP\bin\Debug\nunit.framework.xml
+E:\Dropbox\Demo Projects For Jobs\GEP\GEP\obj\Debug\GEP.fsprojResolveAssemblyReference.cache
+C:\Dropbox\Demo Projects For Jobs\GEP\GEP\obj\Debug\GEP.fsprojResolveAssemblyReference.cache

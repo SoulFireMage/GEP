@@ -50,12 +50,6 @@ let StringToChromosone (chromosone: string) length =
 
 let chrFromSymbol sym = sym |> List.map( fun x -> x.letter) 
 //"/*a+b-*Q*ababb"
-
- 
-
-
-    
-
  
 
 let processGene (gene: Symbol list) =
@@ -76,8 +70,9 @@ let processGene (gene: Symbol list) =
                                                                         processGene1 (gene.Tail ) gene.Tail
                                                                         remainder |> Seq.take 1
                                                         printfn " " 
-                                                        for symbol in g  do
-                                                            printf "%A" symbol.letter
+                                                        g |> Seq.iter(fun symbol -> printf "%A" symbol.letter) |> ignore
+                                                       // for symbol in g  do
+                                                         //    printf "%A" symbol.letter
 
                                                | false -> printfn "" 
                                                
@@ -85,6 +80,7 @@ let processGene (gene: Symbol list) =
 //                                   []                
 
     processGene1 gene gene
+      //gene |> Seq.skip s  |> Seq.toList
 //
 //
 //[<TestFixture>]

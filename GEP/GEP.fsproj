@@ -9,10 +9,12 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>ConsoleApplication1</RootNamespace>
     <AssemblyName>ConsoleApplication1</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <TargetFSharpCoreVersion>4.3.1.0</TargetFSharpCoreVersion>
+    <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
     <Name>ConsoleApplication1</Name>
+    <TargetFrameworkProfile />
+    <ReferencePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\FSharp\FSPackages\</ReferencePath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -60,10 +62,12 @@
     <None Include="App.config" />
     <Content Include="packages.config" />
     <Content Include="CommentedOutForNow.txt" />
+    <None Include="Scripts\load-references.fsx" />
+    <None Include="Scripts\load-project.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Quotations.Evaluator">
-      <HintPath>..\packages\FSharp.Quotations.Evaluator.1.0.1\lib\net40\FSharp.Quotations.Evaluator.dll</HintPath>
+      <HintPath>..\packages\FSharp.Quotations.Evaluator.1.0.6\lib\net40\FSharp.Quotations.Evaluator.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="mscorlib" />
